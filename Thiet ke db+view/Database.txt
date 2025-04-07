@@ -6,7 +6,7 @@ user:
 - username: String (tên người dùng, duy nhất)
 - password: String (mật khẩu đã được mã hóa)
 - email: String (địa chỉ email, duy nhất)
-- profilePicture: String (đường dẫn đến ảnh đại diện của người dùng, có thể là URL hoặc đường dẫn cục bộ)
+- profilePicture: String (đường dẫn đến ảnh đại diện của người dùng)
 - timestamp: Date (thời gian tạo tài khoản, tự động tạo khi người dùng đăng ký)
 - friends: [ObjectId] (mảng chứa ID của những người bạn, tham chiếu đến collection 'user')
 
