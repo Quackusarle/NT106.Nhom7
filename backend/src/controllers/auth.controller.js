@@ -1,6 +1,7 @@
 import User from '../models/user.model.js';
 import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
+import cloudinary from "../lib/cloudinary.js";
 
 dotenv.config();
 
@@ -83,5 +84,35 @@ export const logout = async(req, res) => {
     catch(err){
         console.log(err);
         res.status(500).json({message: "Internal server error"});
+    }
+}
+
+export const updateProfile = async (req, res) => {
+    try{
+        const {profilePic} = req.body;
+        const userId = req.user._id;
+
+        if(!profilePic){
+            return res.status(400).json({message:"Profile pic required"});
+        }
+        const uploadResponse = await cloudinary.uploader.upload(profilePic);
+        const updateUser =  await User.findByIdAndUpdate(UserId, {profilePic:uploadResponse.secure_url},{new:true});
+
+        res.status(200).json(updateUser)
+    }
+    catch(err)
+    {
+        console.log('Error in update profile',error);
+        res.status(500).json({message:"Internal server error!"});
+    }
+}
+
+export const checkAuth = (req, res) => {
+    try{
+        res.status(200).json(req.user);
+    }
+    catch(err){
+        console.log("Error in checkAuth controller", err.message);
+        res.status(500).json({message: "Internal Server Error"});
     }
 }
