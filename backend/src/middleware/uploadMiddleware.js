@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      
+        
         const uploadsPath = path.join(__dirname, '../../uploads');
         console.log(`[UploadMiddleware] Saving file to: ${uploadsPath}`);
         cb(null, uploadsPath);
@@ -27,9 +27,10 @@ const storage = multer.diskStorage({
 
 
 
+
 const upload = multer({
     storage: storage,
-    
+  
 });
 
 export default upload;
