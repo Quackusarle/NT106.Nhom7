@@ -1,0 +1,547 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useThemeStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\useThemeStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useChatStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\useChatStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useAuthStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\useAuthStore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\services\\CryptoService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\CryptoService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SignUpPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\SignUpPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SettingsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\SettingsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\ProfilePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\ProfilePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\LoginPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\LoginPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\HomePage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\fileHandling.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\fileHandling.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\axios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\axios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\constants\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\constants\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\NoChatSelected.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NoChatSelected.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\MessageInput.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\MessageInput.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Message.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Message.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\DecryptedMessageContent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\DecryptedMessageContent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatHeader.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ChatHeader.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ChatContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\AuthImagePattern.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\AuthImagePattern.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\SidebarSkeleton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\skeletons\\SidebarSkeleton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\MessageSkeleton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\skeletons\\MessageSkeleton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\tailwind.config.js",
+              "RelativeDocumentMoniker": "tailwind.config.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\tailwind.config.js",
+              "RelativeToolTip": "tailwind.config.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:11:55.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T09:11:51.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-08T09:11:49.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eslint.config.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\eslint.config.js",
+              "RelativeDocumentMoniker": "eslint.config.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\eslint.config.js",
+              "RelativeToolTip": "eslint.config.js",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:11:45.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:11:43.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.css",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-08T09:11:42.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:11:40.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "useThemeStore.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useThemeStore.js",
+              "RelativeDocumentMoniker": "src\\store\\useThemeStore.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useThemeStore.js",
+              "RelativeToolTip": "src\\store\\useThemeStore.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:11:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "useChatStore.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useChatStore.js",
+              "RelativeDocumentMoniker": "src\\store\\useChatStore.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useChatStore.js",
+              "RelativeToolTip": "src\\store\\useChatStore.js",
+              "ViewState": "AQIAAF8BAAAAAAAAAAAAAGoBAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:08:20.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "useAuthStore.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useAuthStore.js",
+              "RelativeDocumentMoniker": "src\\store\\useAuthStore.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\store\\useAuthStore.js",
+              "RelativeToolTip": "src\\store\\useAuthStore.js",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAAADoBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:06:53.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CryptoService.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\services\\CryptoService.js",
+              "RelativeDocumentMoniker": "src\\services\\CryptoService.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\services\\CryptoService.js*",
+              "RelativeToolTip": "src\\services\\CryptoService.js*",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:06:39.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignUpPage.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SignUpPage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\SignUpPage.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SignUpPage.jsx",
+              "RelativeToolTip": "src\\pages\\SignUpPage.jsx",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:06:34.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsPage.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SettingsPage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\SettingsPage.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\SettingsPage.jsx",
+              "RelativeToolTip": "src\\pages\\SettingsPage.jsx",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:06:32.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\ProfilePage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\ProfilePage.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\ProfilePage.jsx",
+              "RelativeToolTip": "src\\pages\\ProfilePage.jsx",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:06:30.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginPage.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\LoginPage.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeToolTip": "src\\pages\\LoginPage.jsx",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:06:26.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\HomePage.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeToolTip": "src\\pages\\HomePage.jsx",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:06:18.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "utils.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\utils.js",
+              "RelativeDocumentMoniker": "src\\lib\\utils.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\utils.js",
+              "RelativeToolTip": "src\\lib\\utils.js",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:05:14.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "fileHandling.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\fileHandling.js",
+              "RelativeDocumentMoniker": "src\\lib\\fileHandling.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\fileHandling.js",
+              "RelativeToolTip": "src\\lib\\fileHandling.js",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAGYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:04:25.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "axios.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\axios.js",
+              "RelativeDocumentMoniker": "src\\lib\\axios.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\lib\\axios.js",
+              "RelativeToolTip": "src\\lib\\axios.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:04:23.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.js",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\constants\\index.js",
+              "RelativeDocumentMoniker": "src\\constants\\index.js",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\constants\\index.js",
+              "RelativeToolTip": "src\\constants\\index.js",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-08T09:04:19.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Sidebar.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Sidebar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Sidebar.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Sidebar.jsx",
+              "RelativeToolTip": "src\\components\\Sidebar.jsx",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:04:11.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NoChatSelected.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\NoChatSelected.jsx",
+              "RelativeDocumentMoniker": "src\\components\\NoChatSelected.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\NoChatSelected.jsx",
+              "RelativeToolTip": "src\\components\\NoChatSelected.jsx",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:04:07.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Navbar.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "src\\components\\Navbar.jsx",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:04:03.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MessageInput.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\MessageInput.jsx",
+              "RelativeDocumentMoniker": "src\\components\\MessageInput.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\MessageInput.jsx",
+              "RelativeToolTip": "src\\components\\MessageInput.jsx",
+              "ViewState": "AQIAAIwBAAAAAAAAAAAAAJgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T09:01:07.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Message.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Message.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Message.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\Message.jsx",
+              "RelativeToolTip": "src\\components\\Message.jsx",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAAAAEBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:58:54.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DecryptedMessageContent.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\DecryptedMessageContent.jsx",
+              "RelativeDocumentMoniker": "src\\components\\DecryptedMessageContent.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\DecryptedMessageContent.jsx",
+              "RelativeToolTip": "src\\components\\DecryptedMessageContent.jsx",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAG8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:57:57.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChatHeader.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatHeader.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ChatHeader.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatHeader.jsx",
+              "RelativeToolTip": "src\\components\\ChatHeader.jsx",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:57:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChatContainer.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatContainer.jsx",
+              "RelativeDocumentMoniker": "src\\components\\ChatContainer.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\ChatContainer.jsx",
+              "RelativeToolTip": "src\\components\\ChatContainer.jsx",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:57:21.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthImagePattern.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\AuthImagePattern.jsx",
+              "RelativeDocumentMoniker": "src\\components\\AuthImagePattern.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\AuthImagePattern.jsx",
+              "RelativeToolTip": "src\\components\\AuthImagePattern.jsx",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:57:18.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SidebarSkeleton.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\SidebarSkeleton.jsx",
+              "RelativeDocumentMoniker": "src\\components\\skeletons\\SidebarSkeleton.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\SidebarSkeleton.jsx",
+              "RelativeToolTip": "src\\components\\skeletons\\SidebarSkeleton.jsx",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:57:08.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MessageSkeleton.jsx",
+              "DocumentMoniker": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\MessageSkeleton.jsx",
+              "RelativeDocumentMoniker": "src\\components\\skeletons\\MessageSkeleton.jsx",
+              "ToolTip": "E:\\chat1-mainfixfullhetloic\u00F3 th\u00F4ng b\u00E1o , c\u00F3 g\u1EEDi file\\frontend\\src\\components\\skeletons\\MessageSkeleton.jsx",
+              "RelativeToolTip": "src\\components\\skeletons\\MessageSkeleton.jsx",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-08T08:56:44.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
