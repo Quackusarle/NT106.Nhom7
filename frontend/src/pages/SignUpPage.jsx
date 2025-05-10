@@ -91,13 +91,14 @@ const SignUpPage = () => {
             <div className="text-center mb-8">
               <div className="flex flex-col items-center gap-2">
                 <div
-                  className="size-18 rounded bg-gray-300/90 flex items-center justify-center border-2 border-gray-600 shadow-[2px_2px_0_#00000050]"
+                  className="size-18 rounded bg-gray-300/90 flex items-center justify-center border-2 border-gray-600 shadow-[2px_2px_0_#00000050] animate-float"
                   style={{ backgroundImage: "url('https://minecraft.wiki/images/Dirt_%28texture%29_JE2_BE2.png')", backgroundSize: "cover" }}
                 >
                   <img
                     src="https://i.pinimg.com/736x/c2/0b/1f/c20b1fab73a2f0e86d113f1a711c71d3.jpg"
-                    alt="Logo"
+                    alt="Grass Block Logo"
                     className="size-20"
+                    style={{ imageRendering: "pixelated" }}
                   />
                 </div>
                 <h1 className="text-2xl font-bold pixel-font mt-2">Create Account</h1>
