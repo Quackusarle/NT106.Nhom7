@@ -67,6 +67,7 @@ const Sidebar = () => {
           >
             <div className="relative mx-auto lg:mx-0">
               <img
+                // image of users.
                 src={user.profilePic || "/avatar.png"}
                 alt={user.name}
                 className="size-10 object-cover rounded border-2 border-gray-600 shadow-[2px_2px_0_#00000080]"
@@ -74,6 +75,7 @@ const Sidebar = () => {
               />
               {onlineUsers.includes(user._id) && (
                 <span
+                  // Green circle to indicate online users.
                   className="absolute bottom-0 right-0 size-4 bg-green-600 
                   rounded-full ring-2 ring-gray-500 shadow-[1px_1px_0_#00000080]"
                 />
