@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.highlight-search-result {
+    background-color: #fef3c7 !important;
+    transition: background-color 0.3s ease;
+}
+
+.search-results mark {
+    background-color: #fbbf24;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
