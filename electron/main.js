@@ -1,42 +1,68 @@
-const { app, BrowserWindow, Menu, shell } = require("electron");
-const path = require("path");
-const url = require("url");
-let mainWindow;
+import { app, BrowserWindow, protocol } from 'electron';
+import path from 'path';
+import url from 'url';
+import isDev from 'electron-is-dev';
+
+// Đăng ký scheme đặc quyền trước khi app ready
+protocol.registerSchemesAsPrivileged([
+  {
+    scheme: 'app',
+    privileges: { standard: true, secure: true, corsEnabled: true, supportFetchAPI: true },
+  },
+]);
+
+app.commandLine.appendSwitch('ignore-certificate-errors');
+
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+let mainWindow; // Khai báo biến có thể thay đổi ở đây
 
 function createWindow() {
+  // Gán giá trị cho biến đã khai báo, không tạo biến mới
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 800,
     webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
       contextIsolation: true,
     },
-    icon: path.join(__dirname, "assets/icon.png"),
+    icon: path.join(__dirname, 'assets/icon.png'),
   });
 
-  const startUrl =
-    process.env.ELECTRON_START_URL ||
-    url.format({
-      pathname: "//localhost:5173",
-      protocol: "http:",
-      slashes: true,
-    });
+  
+  const startUrl = isDev
+    ? 'https://192.168.194.169:5173'
+    : 'app://./index.html';
+
   mainWindow.loadURL(startUrl);
-  mainWindow.on("closed", function () {
+
+  if (isDev) {
+    mainWindow.webContents.openDevTools();
+  }
+  mainWindow.on('closed', () => {
     mainWindow = null;
   });
 }
 
-app.on("ready", createWindow);
+app.whenReady().then(() => {
+  protocol.registerFileProtocol('app', (request, callback) => {
+    const filePath = path.join(__dirname, 'dist', new url.URL(request.url).pathname);
+    callback(filePath);
+  });
 
-app.on("window-all-closed", function () {
-  if (process.platform !== "darwin") {
+  createWindow();
+});
+
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
     app.quit();
   }
 });
 
-app.on("activate", function () {
-  if (mainWindow === null) {
+app.on('activate', () => {
+  if (mainWindow === null) { 
     createWindow();
   }
 });

@@ -99,7 +99,7 @@ const Message = ({ message }) => {
                 let decryptedBuffers = [];
                 for (let i = 0; i < message.totalChunks; i++) {
                     toast.loading(`Downloading chunk ${i + 1}/${message.totalChunks}...`, { id: loadingToastId });
-                    const res = await fetch(`https://192.168.1.70:5001/api/files/download-chunk?fileId=${message.fileId}&chunkIndex=${i}`, { credentials: 'include' });
+                    const res = await fetch(`https://192.168.194.169:5001/api/files/download-chunk?fileId=${message.fileId}&chunkIndex=${i}`, { credentials: 'include' });
                     if (!res.ok) throw new Error(`Failed to download chunk ${i}: ${res.status} ${res.statusText}`);
                     const { chunk: chunkBase64, iv: ivBase64 } = await res.json();
                     if (!chunkBase64 || !ivBase64) throw new Error(`Missing chunk or IV for chunk ${i}`);
@@ -143,7 +143,7 @@ const Message = ({ message }) => {
             }
             const fileIv = base64ToArrayBuffer(message.file_iv);
             toast.loading("Downloading encrypted file...", { id: loadingToastId });
-            const response = await fetch(`https://192.168.1.70:5001/api/files/download/${message.file_path}`, {
+            const response = await fetch(`https://192.168.194.169:5001/api/files/download/${message.file_path}`, {
                 credentials: 'include'
             });
             if (!response.ok) {

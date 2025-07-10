@@ -5,8 +5,8 @@ import { io } from "socket.io-client";
 import { JSEncrypt } from "jsencrypt";
 import { useChatStore } from "./useChatStore.js";
 
-const BASE_URL = import.meta.env.MODE === "development" ? "https://192.168.1.70:5001" : "/";
-
+const BASE_URL = import.meta.env.MODE === "development" ? "https://192.168.194.169:5001" : "/";
+const SOCKET_URL = "https://192.168.194.169:5001";
 
 const generateKeys = () => {
     const crypt = new JSEncrypt({ default_key_size: 2048 });
@@ -182,45 +182,59 @@ export const useAuthStore = create((set, get) => ({
     login: async (data) => {
         set({ isLoggingIn: true });
         try {
-            const loginRes = await axiosInstance.post("/auth/login", data);
-            const userId = loginRes.data._id;
+            // Bước 1: Đăng nhập và nhận thông tin user CÙNG VỚI cookie
+            const loginResponse = await axiosInstance.post("/auth/login", data);
 
+            // Dữ liệu người dùng đã có ngay trong phản hồi này
+            const userData = loginResponse.data;
+            const userId = userData._id;
+
+            // Bây giờ, cookie đã được thiết lập. Mọi yêu cầu tiếp theo sẽ được xác thực.
+
+            // Bước 2: Xử lý khóa
             let privateKey, publicKey;
             const storedKeys = retrieveKeys(userId);
 
             if (storedKeys && await validateKeys(storedKeys.privateKey, storedKeys.publicKey)) {
                 privateKey = storedKeys.privateKey;
                 publicKey = storedKeys.publicKey;
-                console.log("Using existing validated keys");
+                console.log("[Login] Using existing validated keys.");
             } else {
-                console.warn("[login] Keys not found or failed validation. Generating new keys.");
-                console.log("Generating new keys");
+                console.warn("[Login] No valid keys found, generating new ones.");
                 const newKeys = generateKeys();
                 privateKey = newKeys.privateKey;
                 publicKey = newKeys.publicKey;
 
                 if (!storeKeys(privateKey, publicKey, userId)) {
-                    throw new Error("Failed to store new keys");
+                    throw new Error("Failed to store new keys on login");
                 }
             }
 
+            // Bước 3: Gửi public key lên server.
+            // Yêu cầu này giờ đây chắc chắn sẽ thành công vì nó được gửi đi
+            // sau khi yêu cầu login đã hoàn tất và cookie đã được thiết lập.
+            try {
+                await axiosInstance.put("/auth/update-public-key", { publicKey });
+                console.log("[Login] Public key updated successfully.");
+            } catch (updateError) {
+                // Log lỗi cập nhật key nhưng không làm hỏng cả quá trình đăng nhập
+                console.error("[Login] Failed to update public key, but login will proceed.", updateError);
+                toast.error("Could not update security key, but you are logged in.");
+            }
 
-            await axiosInstance.put("/auth/update-public-key", { publicKey });
-
-
-            const checkRes = await axiosInstance.get("/auth/check");
-
+            // Bước 4: Cập nhật state của ứng dụng VỚI DỮ LIỆU TỪ BƯỚC 1
             set({
-                authUser: checkRes.data,
+                authUser: userData,
                 privateKey: privateKey
             });
 
             toast.success("Logged in successfully");
             get().connectSocket();
+
         } catch (error) {
             console.error("Login failed:", error);
-            toast.error(error.response?.data?.message || "Login failed");
-            set({ authUser: null, privateKey: null });
+            toast.error(error.response?.data?.message || "Login process failed");
+            set({ authUser: null, privateKey: null }); // Dọn dẹp nếu có lỗi
         } finally {
             set({ isLoggingIn: false });
         }
@@ -267,7 +281,7 @@ export const useAuthStore = create((set, get) => ({
         if (!authUser || socket?.connected) return;
 
         console.log(`[Socket] Connecting for user ${authUser._id}`);
-        const newSocket = io(BASE_URL, {
+        const newSocket = io(SOCKET_URL, {
             query: { userId: authUser._id },
             reconnection: true,
             reconnectionAttempts: 10,

@@ -182,7 +182,7 @@ const MessageInput = () => {
         const MAX_RETRIES = 3;
         
         try {
-            const uploadRes = await fetch('https://192.168.1.70:5001/api/files/upload-chunk', {
+            const uploadRes = await fetch('https://192.168.194.169:5001/api/files/upload-chunk', {
                 method: 'POST',
                 body: formData,
                 credentials: 'include',
@@ -282,7 +282,7 @@ const MessageInput = () => {
             await Promise.all(uploadPromises);
             
             // 5. Merge chunks
-            const mergeRes = await fetch('https://192.168.1.70:5001/api/files/merge-chunks', {
+            const mergeRes = await fetch('https://192.168.194.169:5001/api/files/merge-chunks', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ fileId, totalChunks, originalName: selectedFile.name }),
