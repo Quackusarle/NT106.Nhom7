@@ -1,0 +1,50 @@
+{
+  "name": "chat-app-nhom7",
+  "version": "1.0.0",
+  "description": "Ứng dụng Chat NT106 Nhóm 7",
+  "main": "main.js",
+  "author": "Nhom 7",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --config"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1"
+  },
+  "devDependencies": {
+    "electron": "^31.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.nhom7.chatapp",
+    "productName": "MineZola",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "assets/",
+      {
+        "from": "../frontend/dist",
+        "to": "dist",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icon.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    }
+  }
+}
