@@ -410,8 +410,8 @@ const VideoCall = () => {
   // Incoming call modal
   if (incomingCall) {
     return (
-      <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
-        <div className="minecraft-border bg-gray-300 p-8 rounded-lg max-w-md w-full mx-4">
+      <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+        <div className="minecraft-border bg-gray-300 p-6 sm:p-8 rounded-lg max-w-sm sm:max-w-md w-full relative">
           <style>
             {`
               .minecraft-border {
@@ -424,6 +424,26 @@ const VideoCall = () => {
               .pixel-font {
                 font-family: 'VT323', monospace;
               }
+              .call-avatar {
+                width: 80px;
+                height: 80px;
+                min-width: 80px;
+                min-height: 80px;
+              }
+              @media (max-width: 480px) {
+                .call-avatar {
+                  width: 60px;
+                  height: 60px;
+                  min-width: 60px;
+                  min-height: 60px;
+                }
+                .call-title {
+                  font-size: 1.5rem !important;
+                }
+                .call-name {
+                  font-size: 1.25rem !important;
+                }
+              }
             `}
           </style>
           
@@ -432,30 +452,40 @@ const VideoCall = () => {
               <img
                 src={incomingCall.caller.profilePic || "/avatar.png"}
                 alt={incomingCall.caller.name}
-                className="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-gray-600"
+                className="call-avatar rounded-full mx-auto mb-4 border-2 border-gray-600 object-cover"
                 style={{ imageRendering: "pixelated" }}
               />
-              <h3 className="pixel-font text-3xl text-gray-800 mb-2">
+              <h3 className="call-title pixel-font text-2xl sm:text-3xl text-gray-800 mb-2 font-bold">
                 Incoming Video Call
               </h3>
-              <p className="pixel-font text-2xl text-gray-600">
+              <p className="call-name pixel-font text-xl sm:text-2xl text-gray-600 truncate">
                 {incomingCall.caller.name}
               </p>
             </div>
             
-            <div className="flex gap-4 justify-center">
+            <div className="flex gap-6 justify-center">
               <button
                 onClick={handleAcceptCall}
-                className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full transition-colors minecraft-border"
+                className="bg-green-500 hover:bg-green-600 text-white p-4 sm:p-5 rounded-full transition-all transform hover:scale-105 minecraft-border shadow-lg"
+                title="Accept Call"
               >
-                <Phone size={24} />
+                <Phone size={28} />
               </button>
               <button
                 onClick={handleRejectCall}
-                className="bg-red-500 hover:bg-red-600 text-white p-4 rounded-full transition-colors minecraft-border"
+                className="bg-red-500 hover:bg-red-600 text-white p-4 sm:p-5 rounded-full transition-all transform hover:scale-105 minecraft-border shadow-lg"
+                title="Reject Call"
               >
-                <PhoneOff size={24} />
+                <PhoneOff size={28} />
               </button>
+            </div>
+          </div>
+
+          {/* Animated ripple effect */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="w-40 h-40 border-4 border-white/30 rounded-full animate-ping"></div>
+              <div className="w-48 h-48 border-4 border-white/20 rounded-full animate-ping-slow absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             </div>
           </div>
         </div>
@@ -480,43 +510,46 @@ const VideoCall = () => {
         </style>
 
         {/* Header */}
-        <div className="bg-gray-800 p-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
+        <div className="bg-gray-800 p-3 sm:p-4 flex justify-between items-center">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <img
               src={selectedUser?.profilePic || "/avatar.png"}
               alt={selectedUser?.fullName}
-              className="w-10 h-10 rounded-full border-2 border-gray-600"
+              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-gray-600 flex-shrink-0 object-cover"
               style={{ imageRendering: "pixelated" }}
             />
-            <div>
-              <h3 className="pixel-font text-white text-xl">
+            <div className="min-w-0 flex-1">
+              <h3 className="pixel-font text-white text-lg sm:text-xl truncate">
                 {selectedUser?.fullName}
               </h3>
-              <p className="pixel-font text-gray-300 text-lg">
+              <p className="pixel-font text-gray-300 text-sm sm:text-lg">
                 {callStatus === 'calling' ? 'Calling...' : 
-                 callStatus === 'connected' ? 'Connected' : callStatus}
+                 callStatus === 'connected' ? 'Connected' : 
+                 callStatus === 'ringing' ? 'Ringing...' : callStatus}
               </p>
             </div>
           </div>
           
           <button
             onClick={endCall}
-            className="text-gray-300 hover:text-white p-2"
+            className="text-gray-300 hover:text-white p-2 transition-colors flex-shrink-0"
+            title="Minimize Call"
           >
-            <X size={24} />
+            <X size={20} className="sm:w-6 sm:h-6" />
           </button>
         </div>
 
         {/* Video Area */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative overflow-hidden">
           {/* Remote Video (main) */}
-          <div className="w-full h-full bg-gray-900">
+          <div className="w-full h-full bg-gray-900 flex items-center justify-center">
             {remoteStream ? (
               <video
                 ref={remoteVideoRef}
                 autoPlay
                 playsInline
-                className="w-full h-full object-cover"
+                className="max-w-full max-h-full object-contain"
+                style={{ aspectRatio: '16/9' }}
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
@@ -533,48 +566,52 @@ const VideoCall = () => {
           </div>
 
           {/* Local Video (picture-in-picture) */}
-          <div className="absolute top-4 right-4 w-48 h-36 minecraft-border rounded-lg overflow-hidden">
+          <div className="absolute top-4 right-4 w-48 h-36 sm:w-60 sm:h-44 minecraft-border rounded-lg overflow-hidden bg-gray-800 md:top-2 md:right-2 md:w-32 md:h-24">
             <video
               ref={localVideoRef}
               autoPlay
               playsInline
               muted
               className={`w-full h-full object-cover ${isVideoOff ? 'hidden' : ''}`}
+              style={{ aspectRatio: '4/3' }}
             />
             {isVideoOff && (
               <div className="w-full h-full bg-gray-700 flex items-center justify-center">
-                <VideoOff size={32} className="text-gray-400" />
+                <VideoOff size={24} className="text-gray-400" />
               </div>
             )}
           </div>
         </div>
 
         {/* Controls */}
-        <div className="bg-gray-800 p-6">
-          <div className="flex justify-center gap-4">
+        <div className="bg-gray-800 p-4 sm:p-6">
+          <div className="flex justify-center gap-4 sm:gap-6 max-w-md mx-auto">
             <button
               onClick={toggleMute}
-              className={`p-4 rounded-full transition-colors minecraft-border ${
+              className={`p-3 sm:p-4 rounded-full transition-all transform hover:scale-105 minecraft-border shadow-lg ${
                 isMuted ? 'bg-red-500 hover:bg-red-600' : 'bg-gray-600 hover:bg-gray-700'
               } text-white`}
+              title={isMuted ? 'Unmute' : 'Mute'}
             >
-              {isMuted ? <MicOff size={24} /> : <Mic size={24} />}
+              {isMuted ? <MicOff size={20} className="sm:w-6 sm:h-6" /> : <Mic size={20} className="sm:w-6 sm:h-6" />}
             </button>
             
             <button
               onClick={toggleVideo}
-              className={`p-4 rounded-full transition-colors minecraft-border ${
+              className={`p-3 sm:p-4 rounded-full transition-all transform hover:scale-105 minecraft-border shadow-lg ${
                 isVideoOff ? 'bg-red-500 hover:bg-red-600' : 'bg-gray-600 hover:bg-gray-700'
               } text-white`}
+              title={isVideoOff ? 'Turn On Video' : 'Turn Off Video'}
             >
-              {isVideoOff ? <VideoOff size={24} /> : <Video size={24} />}
+              {isVideoOff ? <VideoOff size={20} className="sm:w-6 sm:h-6" /> : <Video size={20} className="sm:w-6 sm:h-6" />}
             </button>
             
             <button
               onClick={endCall}
-              className="bg-red-500 hover:bg-red-600 text-white p-4 rounded-full transition-colors minecraft-border"
+              className="bg-red-500 hover:bg-red-600 text-white p-3 sm:p-4 rounded-full transition-all transform hover:scale-105 minecraft-border shadow-lg"
+              title="End Call"
             >
-              <PhoneOff size={24} />
+              <PhoneOff size={20} className="sm:w-6 sm:h-6" />
             </button>
           </div>
         </div>
