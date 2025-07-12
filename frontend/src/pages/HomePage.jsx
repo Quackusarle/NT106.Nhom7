@@ -3,7 +3,6 @@ import { useChatStore } from "../store/useChatStore";
 import Sidebar from "../components/Sidebar";
 import NoChatSelected from "../components/NoChatSelected";
 import ChatContainer from "../components/ChatContainer";
-import VideoCall from "../components/VideoCall";
 
 const HomePage = () => {
   const { selectedUser } = useChatStore();
@@ -33,8 +32,6 @@ const HomePage = () => {
           {!selectedUser ? <NoChatSelected /> : <ChatContainer />}
         </div>
       </div>
-      {/* Video Call Component - renders globally when active */}
-      <VideoCall />
     </div>
   );
 };

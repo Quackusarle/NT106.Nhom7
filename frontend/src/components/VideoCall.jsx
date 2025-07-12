@@ -410,7 +410,7 @@ const VideoCall = () => {
   // Incoming call modal
   if (incomingCall) {
     return (
-      <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+      <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[9999] p-4 video-call-fullscreen" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 9999, width: '100vw', height: '100vh' }}>
         <div className="minecraft-border bg-gray-300 p-6 sm:p-8 rounded-lg max-w-sm sm:max-w-md w-full relative">
           <style>
             {`
@@ -423,6 +423,19 @@ const VideoCall = () => {
               }
               .pixel-font {
                 font-family: 'VT323', monospace;
+              }
+              /* Ensure incoming call modal takes full viewport */
+              .video-call-fullscreen {
+                position: fixed !important;
+                top: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                width: 100vw !important;
+                height: 100vh !important;
+                z-index: 9999 !important;
+                margin: 0 !important;
+                padding: 0 !important;
               }
               .call-avatar {
                 width: 80px;
@@ -496,7 +509,7 @@ const VideoCall = () => {
   // Video call interface
   if (isCallActive) {
     return (
-      <div className="fixed inset-0 bg-black z-50 flex flex-col">
+      <div className="fixed inset-0 bg-black z-[9999] flex flex-col video-call-fullscreen" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 9999, width: '100vw', height: '100vh' }}>
         <style>
           {`
             .minecraft-border {
@@ -505,6 +518,19 @@ const VideoCall = () => {
             }
             .pixel-font {
               font-family: 'VT323', monospace;
+            }
+            /* Ensure video call takes full viewport */
+            .video-call-fullscreen {
+              position: fixed !important;
+              top: 0 !important;
+              left: 0 !important;
+              right: 0 !important;
+              bottom: 0 !important;
+              width: 100vw !important;
+              height: 100vh !important;
+              z-index: 9999 !important;
+              margin: 0 !important;
+              padding: 0 !important;
             }
           `}
         </style>
